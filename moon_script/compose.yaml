@@ -1,0 +1,15 @@
+services:
+  typescript-app:
+    build:
+      context: .
+    container_name: typescript-app
+    restart: unless-stopped
+    init: true
+    ports:
+      - "3000:3000"  # Expose Next.js app on port 3000
+    # env_file: ./.env  # Uncomment if .env file exists
+    # No external dependencies detected
+    # Runs as non-root user for security (see Dockerfile)
+
+# No external services (databases, caches, etc.) detected in documentation or code
+# No persistent volumes required for this project

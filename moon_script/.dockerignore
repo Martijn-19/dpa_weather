@@ -1,0 +1,69 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+
+# Next.js build output
+.next/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Test and debug artifacts
+test/
+tests/
+debug/
+*.log
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Version control
+.git/
+.gitignore
+.svn/
+.hg/
+
+# Environment and secrets
+.env*
+*.env
+*.pem
+*.key
+*.crt
+config.local.*
+*.local.yml
+
+# Documentation and markdown
+README*
+*.md
+
+# Docker and Compose files
+Dockerfile*
+docker-compose*
+compose.yaml
+
+# Temporary and local files
+tmp/
+temp/
+*.tmp
+.local/
+local/
+
+# Backup files
+*.bak
+
+# Miscellaneous
+*.mjs
+
+# Exclude lock files from ignore (they should be included in the build)
+!package-lock.json
+!yarn.lock
+
+# Exclude public assets and source code from ignore
+!public/
+!src/
