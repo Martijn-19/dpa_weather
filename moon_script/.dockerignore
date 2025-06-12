@@ -64,6 +64,9 @@ local/
 !package-lock.json
 !yarn.lock
 
+# Exclude PostCSS config from ignore (needed for build)
+!postcss.config.mjs
+
 # Exclude public assets and source code from ignore
 !public/
 !src/

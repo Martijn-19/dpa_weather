@@ -1,0 +1,81 @@
+# Node.js dependencies
+node_modules/
+
+# Next.js build output
+.next/
+
+# Build outputs
+out/
+dist/
+build/
+
+# Test and debug artifacts
+test/
+tests/
+*.log
+debug/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Version control
+.git/
+.gitignore
+.svn/
+.hg/
+
+# Environment and secrets
+.env*
+*.env
+*.pem
+*.key
+*.crt
+config.local.*
+*.local.yml
+
+# Documentation and markdown
+README*
+*.md
+
+docs/
+
+# Temporary files and folders
+tmp/
+temp/
+*.tmp
+.local/
+local/
+
+# Miscellaneous
+*.DS_Store
+Thumbs.db
+
+# Python (not detected, but for completeness)
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+
+# Go (not detected, but for completeness)
+/vendor/
+*.test
+.go-cache/
+
+# Java (not detected, but for completeness)
+target/
+*.class
+.gradle/
+
+# Docker files
+Dockerfile*
+docker-compose*
+
+# Public assets (keep public/ as it may be needed for Next.js)
+# public/
+
+# Exclude lock files from ignore (as per instructions)
+# (package-lock.json is NOT ignored)
